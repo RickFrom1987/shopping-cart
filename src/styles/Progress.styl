@@ -1,0 +1,47 @@
+@import('Mixins')
+@import('Constants')
+
+.progress-component
+  text-align center
+  padding 48px
+
+.progress-steps
+  position relative
+  width 75%
+  margin 48px auto
+  display-flex()
+  space-between()
+  
+.progress-bar
+  margin 0 auto
+  width 90%
+  left 0
+  top 14px
+  bottom 0
+  right 0
+  height 4px
+  background-color secondaryColor
+  position absolute
+  z-index 0
+  
+.progress-step
+  color secondaryColor
+  display inline-block
+  z-index 1
+  .progress-title
+    color blackColor
+    font-weight bold
+    font-size 14px
+  .progress-text
+    color white
+  .fa-circle-thin
+    color secondaryColor
+    background white
+  .fa-circle
+    color secondaryColor
+  .active
+    color white
+
+@media (max-width: 500px)
+  .progress-steps
+    display none

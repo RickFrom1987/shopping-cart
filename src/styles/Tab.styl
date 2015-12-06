@@ -1,0 +1,36 @@
+@import('Constants')
+.tab-component
+  margin 24px 0 24px 0
+  width 100%
+  .tabs-menu
+    float right
+    display table
+    list-style none
+    padding 0
+    margin 0
+    background white
+
+  .tabs-menu-item
+    color white
+    background blackColor
+    float right
+    padding 12px
+    margin-left 6px
+    a
+      cursor pointer
+      display block
+      color white
+
+  .tabs-menu-item.is-active
+    background primaryColor
+    
+  .tabs-menu-item:not(.is-active) a:hover,
+  .tabs-menu-item.is-active a
+    color white
+
+  .tab-panel
+    background white
+    clear both
+    padding 12px
+
+
