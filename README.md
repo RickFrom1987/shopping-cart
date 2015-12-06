@@ -1,8 +1,8 @@
-### Basic Shopping Cart w/ Flux and React
+## Basic Shopping Cart w/ Flux and React
 
 ## Installation &nbsp;
-**With [node](http://nodejs.org) Installed**
-**With [npm](http://npmjs.com) Installed**
+**Need [node](http://nodejs.org) installed**
+**and [npm](http://npmjs.com) installed**
 
 ## Run Shopping Cart Demo
 
@@ -19,9 +19,10 @@ $ cd ~/path/to/shopping-cart
 # install dependencies
 $ npm install
 
-# install dependencies
+# start webpackdev server
 $ npm start
 ```
+
 
 **Run Tests:**
 ```sh
@@ -31,6 +32,20 @@ $ cd ~/path/to/shopping-cart
 # using karma
 $ npm run test
 ```
+
+**Build / Edit Semantic UI Theme:**
+```sh
+# cd into the project folder
+$ cd ~/path/to/shopping-cart/semantic
+
+# using gulp
+$ gulp build
+```
+
+## Todos ##
+* More Tests
+* Break out components into views or partials
+* clean up theme development build
 
 ## License
 
